@@ -2,7 +2,8 @@ import { launch } from 'puppeteer'
 import { Solver } from '2captcha-ts'
 import { readFileSync } from 'fs'
 
-const solver = new Solver(process.env.APIKEY)
+const APIKEY = process.env.APIKEY || "your_api_key" // Your https://2captcha.com  API key
+const solver = new Solver(APIKEY)
 
 const example = async () => {
 
@@ -39,9 +40,9 @@ const example = async () => {
             return;
         }
     })
-    page.goto('https://rucaptcha.com/42')
+
+    // Go to target page
+    page.goto('https://dexscreener.com')
 }
 
 example()
-
-
