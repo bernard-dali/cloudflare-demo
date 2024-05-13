@@ -2,7 +2,7 @@
 
 ## About
 
-Demo showing how to bypass Cloudflare Challenge page with Turnstile CAPTCHA with puppeteer and [2Captcha](https://2captcha.com/).
+Demo showing how to bypass Cloudflare Challenge page with Turnstile CAPTCHA with puppeteer and [2captcha](https://2captcha.com/?from=22771395).
 
 In this example you can see how to bypass Cloudflare "Challenge Page" captcha using JavaScript on the https://dexscreener.com
 
