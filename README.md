@@ -1,3 +1,5 @@
+![image](https://github.com/bernard-dali/cloudflare-demo-dexscreener/assets/151824231/0286dfb5-eaad-4cd9-87f5-1a1cf3fa041d)
+
 # Cloudflare Bypassing Demo on https://dexscreener.com
 
 ## About
